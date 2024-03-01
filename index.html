@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raphen</title>
+
+    <!-- MAIN CUSTYOM CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- PHOTOSWIPE CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/photdoswipe@5.2.2/dist/photoswipe.css">
+</head>
+
+<body>
+
+    <!-- HEADER STARTS -->
+    <header>
+        <!-- NAV STARTS -->
+        <nav>
+            <div class="container">
+                <div class="nav__content">
+                    <a href="#">
+                        <img src="img/RaRapkhen__logo.png" alt="">
+                    </a>
+
+                    <ul class="nav__menu">
+                        <li><a class="active" href="index.html">Home</a></li>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="teachers.html">Teachers</a></li>
+                        <li><a href="news.html">News and Event</a></li>
+                        <li><a href="contact.html">Contact us</a></li>
+                    </ul>
+
+                    <div class="nav__info">
+                        <div class="dropdown">
+                            <button onclick="toggleDropdown()" class="dropbtn" id="selectedOption">En <i
+                                    class="fa-solid fa-caret-down"></i></button>
+                            <div id="myDropdown" class="dropdown-content">
+                                <a href="#" onclick="selectOption(this)">En<i class="fa-solid fa-caret-down"></i></a>
+                                <a href="#" onclick="selectOption(this)">UZ <i class="fa-solid fa-caret-down"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="burger">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- NAV END -->
+    </header>
+    <!-- HEADER END -->
+
+    <!-- MAIN STARTS -->
+    <main>
+        <!-- EXPERIANCE STARTS -->
+        <section class="experiance">
+            <div class="container">
+                <div class="experiance__content">
+
+                    <!-- Swiper -->
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="experiance__block">
+                                    <h2>
+                                        A wonderful <span>first</span> out of home learning
+                                        <span>Experience</span> For you Child.
+                                    </h2>
+
+                                    <a class="experiance__btn" href="#">
+                                        <button>More Info <i class="fa-solid fa-arrow-right"></i></button>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="experiance__block">
+                                    <h2>
+                                        A wonderful <span>first</span> out of home learning
+                                        <span>Experience</span> For you Child.
+                                    </h2>
+
+                                    <a class="experiance__btn" href="#">
+                                        <button>More Info <i class="fa-solid fa-arrow-right"></i></button>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="experiance__block">
+                                    <h2>
+                                        A wonderful <span>first</span> out of home learning
+                                        <span>Experience</span> For you Child.
+                                    </h2>
+
+                                    <a class="experiance__btn" href="#">
+                                        <button>More Info <i class="fa-solid fa-arrow-right"></i></button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- EXPERIANCE END -->
+
+        <!-- ACTIVITIES STATRS -->
+        <section class="activities">
+            <div class="container">
+                <h2>
+                    Our Activities
+                </h2>
+
+                <div class="activities__content">
+                    <div class="activities__block">
+                        <div class="activities__box">
+                            <img class="activities__img" src="img/activities__img2.png" alt="">
+                        </div>
+
+                        <div class="activities__info">
+                            <h3>
+                                Art and Creativity
+                            </h3>
+
+                            <p>
+                                Art is the expression or application of human creative skill and imagination, typically
+                                in a visual form such as painting or sculpture, producing works to be appreciated
+                                primarily for their beauty or emotional power.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="activities__block">
+                        <div class="activities__box">
+                            <img class="activities__img" src="img/activities__img.png" alt="">
+                        </div>
+
+                        <div class="activities__info">
+                            <h3>
+                                Sport and Entertainment
+                            </h3>
+
+                            <p>
+                                Art is the expression or application of human creative skill and imagination, typically
+                                in a visual form such as painting or sculpture, producing works to be appreciated
+                                primarily for their beauty or emotional power.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ACTIVITIES END -->
+
+        <!-- BLOG STARTS -->
+        <section class="blog">
+            <div class="container">
+                <div class="blog__content">
+                    <h2>
+                        Latest Blog
+                    </h2>
+
+                    <!-- 1 BLOCK -->
+                    <a href="#">
+                        <div class="blog__block">
+                            <img class="blog__img" src="img/blog__img.png" alt="">
+
+                            <div class="blog__info">
+                                <p>
+                                    Lorem ipsum dolor sit met, consectetur cing elit, sed do abbey...
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- 1 BLOCK -->
+                    <a href="#">
+                        <div class="blog__block">
+                            <img class="blog__img" src="img/blog__img2.png" alt="">
+
+                            <div class="blog__info">
+                                <p>
+                                    Lorem ipsum dolor sit met, consectetur cing elit, sed do abbey...
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <a class="blog__btn" href="#">
+                    <button>More Articles <i class="fa-solid fa-arrow-right"></i></button>
+                </a>
+            </div>
+        </section>
+        <!-- BLOG END-->
+
+        <!-- TEAM STARTS -->
+        <section class="team">
+            <div class="container">
+
+                <h2>
+                    Meet Our Team
+                </h2>
+
+                <div class="team__content">
+
+                    <!-- Swiper -->
+                    <div class="swiper teamSwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="teachersInfo.html">
+                                    <div class="team__block">
+                                        <div class="team__box">
+                                            <img class="team__img" src="img/team__img2.png" alt="">
+                                        </div>
+
+                                        <h3>
+                                            Afuwape J. Abiodun
+                                        </h3>
+
+                                        <h4>
+                                            Headmaster
+                                        </h4>
+
+                                        <div class="team__icons">
+                                            <a href="#"><i class="team__icon fa-brands fa-facebook"></i></a>
+                                            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <a href="teachersInfo.html">
+                                    <div class="team__block">
+                                        <div class="team__box">
+                                            <img class="team__img" src="img/team__img.png" alt="">
+                                        </div>
+
+                                        <h3>
+                                            Afuwape J. Abiodun
+                                        </h3>
+
+                                        <h4>
+                                            Headmaster
+                                        </h4>
+
+                                        <div class="team__icons">
+                                            <a href="#"><i class="team__icon fa-brands fa-facebook"></i></a>
+                                            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <a href="teachersInfo.html">
+                                    <div class="team__block">
+                                        <div class="team__box">
+                                            <img class="team__img" src="img/team__img3.png" alt="">
+                                        </div>
+
+                                        <h3>
+                                            Afuwape J. Abiodun
+                                        </h3>
+
+                                        <h4>
+                                            Headmaster
+                                        </h4>
+
+                                        <div class="team__icons">
+                                            <a href="#"><i class="team__icon fa-brands fa-facebook"></i></a>
+                                            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <a href="teachersInfo.html">
+                                    <div class="team__block">
+                                        <div class="team__box">
+                                            <img class="team__img" src="img/team__img2.png" alt="">
+                                        </div>
+
+                                        <h3>
+                                            Afuwape J. Abiodun
+                                        </h3>
+
+                                        <h4>
+                                            Headmaster
+                                        </h4>
+
+                                        <div class="team__icons">
+                                            <a href="#"><i class="team__icon fa-brands fa-facebook"></i></a>
+                                            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <a href="teachersInfo.html">
+                                    <div class="team__block">
+                                        <div class="team__box">
+                                            <img class="team__img" src="img/team__img.png" alt="">
+                                        </div>
+
+                                        <h3>
+                                            Afuwape J. Abiodun
+                                        </h3>
+
+                                        <h4>
+                                            Headmaster
+                                        </h4>
+
+                                        <div class="team__icons">
+                                            <a href="#"><i class="team__icon fa-brands fa-facebook"></i></a>
+                                            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <a href="teachersInfo.html">
+                                    <div class="team__block">
+                                        <div class="team__box">
+                                            <img class="team__img" src="img/team__img3.png" alt="">
+                                        </div>
+
+                                        <h3>
+                                            Afuwape J. Abiodun
+                                        </h3>
+
+                                        <h4>
+                                            Headmaster
+                                        </h4>
+
+                                        <div class="team__icons">
+                                            <a href="#"><i class="team__icon fa-brands fa-facebook"></i></a>
+                                            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <a href="teachersInfo.html">
+                                    <div class="team__block">
+                                        <div class="team__box">
+                                            <img class="team__img" src="img/team__img2.png" alt="">
+                                        </div>
+
+                                        <h3>
+                                            Afuwape J. Abiodun
+                                        </h3>
+
+                                        <h4>
+                                            Headmaster
+                                        </h4>
+
+                                        <div class="team__icons">
+                                            <a href="#"><i class="team__icon fa-brands fa-facebook"></i></a>
+                                            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- TEAM END -->
+
+        <!-- GELLERY STARTS -->
+        <section class="gallery">
+            <div class="container">
+                <div class="gallery__content">
+                    <h2>
+                        Our Gallery
+                    </h2>
+
+
+                    <!-- Swiper -->
+                    <div class="swiper gallerySwiper">
+                        <div class="swiper-wrapper ">
+                            <div class="swiper-slide image-container">
+                                <div class="gallery__block">
+                                    <img class="gallery__img toZoom" src="img/gallery__img.png" alt="" width="500">
+
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </div>
+                            </div>    
+                            
+                            <div class="swiper-slide image-container">
+                                <div class="gallery__block">
+                                    <img class="gallery__img toZoom" src="img/gallery__img.png" alt="" width="500">
+
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </div>
+                            </div> 
+
+                            <div class="swiper-slide image-container">
+                                <div class="gallery__block">
+                                    <img class="gallery__img toZoom" src="img/gallery__img.png" alt="" width="500">
+
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </div>
+                            </div> 
+
+                            <div class="swiper-slide image-container">
+                                <div class="gallery__block">
+                                    <img class="gallery__img toZoom" src="img/gallery__img.png" alt="" width="500">
+
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </div>
+                            </div> 
+
+
+                            <div class="swiper-slide image-container">
+                                <div class="gallery__block">
+                                    <img class="gallery__img toZoom" src="img/gallery__img.png" alt="" width="500">
+
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </div>
+                            </div> 
+
+                            <div class="swiper-slide image-container">
+                                <div class="gallery__block">
+                                    <img class="gallery__img toZoom" src="img/gallery__img.png" alt="" width="500">
+
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </div>
+                            </div> 
+
+                            <div class="swiper-slide image-container">
+                                <div class="gallery__block">
+                                    <img class="gallery__img toZoom" src="img/gallery__img.png" alt="" width="500">
+
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </div>
+                            </div> 
+
+                        </div>
+
+                      
+
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                    <div class="idMyModal modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content">
+                    </div>
+
+                    <div class="idMyModal modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content">
+                    </div>
+
+                    <div class="idMyModal modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content">
+                    </div>
+
+                    <div class="idMyModal modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content">
+                    </div>
+
+                    <div class="idMyModal modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content">
+                    </div>
+
+                    <div class="idMyModal modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content">
+                    </div>
+
+
+
+
+                </div>
+
+                <a class="blog__btn" href="#">
+                    <button>More Articles <i class="fa-solid fa-arrow-right"></i></button>
+                </a>
+            </div>
+        </section>
+        <!-- GALLERY END -->
+
+       
+
+        <!-- INTEREST STARTS-->
+        <section class="interest">
+            <div class="container">
+                <h2>
+                    Better <span>education</span> for a better world
+                    An <span>investment</span> in knowledge pays the best <span>interest</span>.
+                </h2>
+
+                <form class="interest__content">
+                    <div class="interest__info">
+                        <input type="text" placeholder="Enter e-mail to recieve news letter">
+                        <a href="#">
+                            <button><i class="fa-brands fa-telegram"></i></button>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!-- INTEREST END -->
+    </main>
+    <!-- MAIN END -->
+
+    <!-- FOOTER STARTS -->
+    <footer>
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__location">
+                    <h3>
+                        Our location
+                    </h3>
+
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3005.9102054672717!2d69.05289187655596!3d41.11465211286741!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae7b816d3f999b%3A0x2a7955e62e0d4137!2sZAFFA%20ACADEMY!5e0!3m2!1sru!2s!4v1709027194196!5m2!1sru!2s"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <div class="footer__links">
+                    <h3>
+                        Links
+                    </h3>
+
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="teachers.html">Teachers</a></li>
+                        <li><a href="news.html">News and Event</a></li>
+                        <li><a href="contact.html">Contact us</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__find">
+                    <h3>
+                        Find Us
+                    </h3>
+
+                    <p>
+                        <i class="fa-solid fa-compass"></i> Yanyol city, Beruny street, 301st school
+                    </p>
+
+                    <li class="footer__find-gmail"><a href="#"><i class="fa-solid fa-envelope"></i>
+                            301school@gmail.com</a></li>
+
+                    <div class="find__phone">
+                        <i class="fa-solid fa-phone"></i>
+
+                        <div class="find__phone-number">
+                            <a href="#">+234 805 029 1265</a>
+                            <a href="#">+234 907 228 0656</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer__social">
+                    <h3>
+                        Social Contact
+                    </h3>
+
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-facebook"></i> Facebook</a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i> Twitter</a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+                        <li><a href="#"><i class="fa-brands fa-whatsapp"></i> Whatsapp</a></li>
+                        <li><a href="#"><i class="fa-brands fa-telegram"></i> Telegram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER END -->
+
+    <div class="idMyModal modal">
+        <span class="close">&times;</span>
+        <img class="modal-content">
+    </div>
+
+    <!-- CUSTOM JS -->
+    <script src="js/main.js"></script>
+    <script src="js/landing/landingMain.js"></script>
+
+    <!-- FONT AWESOME -->
+    <script src="libs/FontAwesome.js"></script>
+
+    <!-- SWIPER JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/swiper/swiper.js"></script>
+
+</body>
+
+</html>
